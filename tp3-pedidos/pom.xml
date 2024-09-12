@@ -22,26 +22,26 @@
     </properties>
 
     <dependencies>
-        <!-- Dependência para a API Web (Jakarta EE e Tomcat 10 incluídos) -->
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Spring Data JPA para persistência -->
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         
-        <!-- Dependência para o Swagger usando SpringDoc OpenAPI -->
+        
 		<dependency>
     		<groupId>org.springdoc</groupId>
     		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-    		<version>2.1.0</version> <!-- Verifique se esta é a versão mais recente disponível -->
+    		<version>2.1.0</version> 
 		</dependency>
 
-		<!-- Dependência para resolver problemas de HttpServletRequest com Jakarta -->
+		
 		<dependency>
     		<groupId>jakarta.servlet</groupId>
     		<artifactId>jakarta.servlet-api</artifactId>
@@ -50,21 +50,21 @@
 		</dependency>
 
 
-        <!-- H2 Database para desenvolvimento e testes -->
+        
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Dependência para usar o Swagger -->
+        
         <dependency>
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>2.1.0</version>
         </dependency>
 
-        <!-- Dependência para testes -->
+       
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
